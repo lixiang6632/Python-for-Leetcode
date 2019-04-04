@@ -6,4 +6,3 @@ class Solution:
             if target_num in hashmap:
                 return [hashmap[target_num], index]
             hashmap[num] = index
-        return None
